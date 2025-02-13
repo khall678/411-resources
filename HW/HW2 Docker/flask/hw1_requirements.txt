@@ -1,0 +1,38 @@
+1. Agile
+
+Theme: Get GiggleGit demo into a stable enough alpha to start onboarding some adventurous clients
+Epic: Onboarding experience 
+	1. Complete these user stories:
+As a vanilla git power-user that has never seen GiggleGit before, I want to use GiggleGit without confusion in order to continue my workflow.
+
+As a team lead onboarding an experienced GiggleGit user, I want to help the new users so that my team can collaborate as well as they normally do.
+
+
+	2. User Story: As a new user to GiggleGit, I want a guided walkthrough of the GIggleGit interface, so that I can use its tools efficiently and correctly.
+Task: Create a user tutorial
+Ticket: Make an interactive walkthrough 
+- have a step by step instruction that pops up on the front page for a new user. 
+- it points out where features such as clone, push, commit, etc are located. 
+Ticket: Implement help tools and tips
+- Even after tutorial is exited there is a help icon in the corner to ask for the walkthrough again.
+- when hovering over icons it will say what the feature is for the user.
+
+
+	3. The statement is not a user story because it is not highlighting a benefit it is saying a feature. It is a use case.
+
+
+
+
+
+2. Formal Requirements
+	1. Goal: SnickerSync will have a smooth and efficient diff experience that helps users merge code.
+	    Non-Goal: SnickerSync will not include machine learning capabilities for automated code merging. 
+
+	2. Non Functional requirement 1: Security
+		Function requirement 1: Implement authentication to confirm the user's identity and credentials. 
+		Functional requirement 2: Encrypt the communication between GiggleGit and SnickerSync servers to protect data.
+	
+	   Non Functional requirement 2: Usability
+		Functional requirement 1: Provide an intuitive interface where the sync function is largely visible for the user to sync their code. 
+		Functional requirement 2: Provide a message to output if the sync was successful or not after each operation to inform the user. 
+
